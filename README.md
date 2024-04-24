@@ -1,6 +1,18 @@
 # NestJS Movie Application API
 
-Welcome to the NestJS Movie Application API! This API provides endpoints for user authentication, movie management, and comment interaction.
+Welcome to the NestJS Movie Application API! This API provides endpoints for user authentication, movie management, and comment interaction.                          env sample{
+
+PORT=3005
+POSTGRES_DB_HOST=''
+POSTGRES_DB_PORT=''
+POSTGRES_DB_USER=''
+POSTGRES_DB_PASSWORD=''
+DB_NAME=''
+NODE_ENV='development'
+TOKEN_EXPIRATION_TIME=''
+TOKEN_SECRET=''
+REDIS_SERVER_URL='redis://127.0.0.1:6379'
+}
 
 ## Table of Contents
 
